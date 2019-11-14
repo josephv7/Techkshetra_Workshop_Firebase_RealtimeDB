@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddQuote"></activity>
+        <activity android:name=".Splash"></activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".Splash">
+        <activity android:name=".AddQuote">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
