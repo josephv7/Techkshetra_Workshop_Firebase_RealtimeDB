@@ -20,7 +20,10 @@ public class AddQuote extends AppCompatActivity {
 
 //        TODO Step 1
 
-        ref.child("myData").setValue("hi");
+//        ref.child("myData").setValue("hi");
+
+//        TODO Step 2
+        ref.child("myData").child("1").setValue("new data");
 
     }
 }
